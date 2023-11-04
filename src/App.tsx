@@ -1,23 +1,22 @@
-import { useState } from "react";
-import { cn } from "./libs/utils";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./routes/page";
+import TablePage from "./routes/table/page";
+import FakerPage from "./routes/table/faker/page";
+import Layout from "./components/common/layout";
+import ErrorPage from "./routes/error";
 
 function App() {
-  const [toggle, setToggle] = useState(false);
-
   return (
-    <>
-      <div className="h-full bg-slate-400">
-        <button
-          onClick={() => setToggle((prev) => !prev)}
-          className={cn(
-            "bg-sky-300 p-2 rounded-md m-2",
-            toggle && "text-red-500"
-          )}
-        >
-          Clsx Test
-        </button>
-      </div>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="table" element={<TablePage />} />
+          <Route path="table/faker" element={<FakerPage />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 

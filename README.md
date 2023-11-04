@@ -12,6 +12,18 @@ npx create-react-app@latest react-sandbox --template typescript
 
 # Dependencies
 
+### React Router DOM
+
+---
+
+[Tutorial v6.18.0](https://reactrouter.com/en/main/start/tutorial)
+
+```
+npm i react-router-dom
+```
+
+---
+
 ### Dummy Data
 
 ---
