@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <div>React Sandbox</div>
+      <div className="h-full bg-slate-400">React Sandbox</div>
     </>
   );
 }
