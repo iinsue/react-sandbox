@@ -1,46 +1,125 @@
-# Getting Started with Create React App
+# Installation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> CRA - Typescript 환경으로 설치
 
-## Available Scripts
+Link : [Getting Started | Create React App](https://create-react-app.dev/docs/getting-started/)
 
-In the project directory, you can run:
+```
+npx create-react-app@latest react-sandbox --template typescript
+```
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Dependencies
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Input Form
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**_React Hook Form_**
 
-### `npm run build`
+Link : [npm: react-hook-form](https://www.npmjs.com/package/react-hook-form)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm i react-hook-form
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**_Zod_**  
+Link : [npm: zod](https://www.npmjs.com/package/zod)
 
-### `npm run eject`
+```
+npm i zod
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**_Zod Resolver_**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Link : [npm: @hookform/resolvers](https://www.npmjs.com/package/@hookform/resolvers)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+npm install @hookform/resolvers
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Application State Management
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+**_React Query_**  
+Link : [Installation | TanStack Query Docs](https://tanstack.com/query/latest/docs/react/installation)
+
+```
+npm i @tanstack/react-query
+```
+
+---
+
+**_Zustand_**
+
+Link : [npm: zustand](https://www.npmjs.com/package/zustand)
+
+```
+npm i zustand
+```
+
+### Table
+
+---
+
+**_React Table_**
+
+Link : [Installation | TanStack Table Docs](https://tanstack.com/table/v8/docs/guide/installation)
+
+```
+npm install @tanstack/react-table
+```
+
+### Style
+
+---
+
+**_Tailwind_**
+
+Link : [Install Tailwind CSS with Create React App - Tailwind CSS](https://tailwindcss.com/docs/guides/create-react-app)
+
+```
+npm install -D tailwindcss
+
+npx tailwindcss init
+```
+
+---
+
+**_clsx_**
+
+Link : [npm: clsx](https://www.npmjs.com/package/clsx)
+
+```
+npm i clsx
+```
+
+---
+
+**_tailwind-merge_**
+
+Link : [npm: tailwind-merge](https://www.npmjs.com/package/tailwind-merge)
+
+```
+npm i tailwind-merge
+```
+
+---
+
+**_class-variance-authority_**
+
+Link : [Installation | cva](https://cva.style/docs/getting-started/installation)
+
+```
+npm i class-variance-authority
+```
+
+---
