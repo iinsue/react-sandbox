@@ -12,6 +12,20 @@ npx create-react-app@latest react-sandbox --template typescript
 
 # Dependencies
 
+### Dummy Data
+
+---
+
+**_Faker_**
+
+[Getting Started | Faker](https://fakerjs.dev/guide/)
+
+```
+npm i @faker-js/faker
+```
+
+---
+
 ### Input Form
 
 ---
